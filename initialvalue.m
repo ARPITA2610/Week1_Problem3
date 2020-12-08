@@ -4,7 +4,7 @@ t = (0:0.001:tStop)';
 x=0;
 K = 0.5;
 sig1 = sin(t*h2r);
-nFreq =8500;
+nFreq =5000;
 sig2 = K*sin(nFreq*t*h2r);
 noise = sig1+sig2;
    
